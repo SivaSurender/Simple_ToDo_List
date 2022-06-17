@@ -1,0 +1,24 @@
+body{
+    background: #352f5b;
+  }
+  .container{
+    max-width: 400px;
+  }  /*two inputs one is for out of focus and the other is for in focus*/
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #423a6f;
+  }
+  .delete{
+      /* Curson ponter gives the hand icon when hovered over the trash button */
+    cursor: pointer;
+  }
+
+  .filtered{
+      display: none !important;
+  }
